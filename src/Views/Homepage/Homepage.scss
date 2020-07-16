@@ -1,0 +1,27 @@
+.container{
+    height: 100vh;
+    .container-inner-content{
+        text-align: center;
+        margin: 0 150px;
+        .hi-inner-content{
+            text-align: left;
+            .hi-inner{
+                font-family: 'Poppins', sans-serif;
+                color:#c22085;
+                margin: auto 0;
+                font-weight: 700;
+                font-size: 10rem;
+            }
+        }
+        .bio-inner-content{
+            text-align: left;
+            width: 62%;
+            .bio-inner{
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                margin: auto 0;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
